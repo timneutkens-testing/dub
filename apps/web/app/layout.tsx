@@ -6,6 +6,8 @@ import RootProviders from "./providers";
 
 export const metadata = constructMetadata();
 
+export const dynamic = "force-dynamic";
+
 export default function RootLayout({
   children,
 }: {

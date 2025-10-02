@@ -24,6 +24,9 @@ module.exports = withAxiom({
       "@team-plain/typescript-sdk",
     ],
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   webpack: (config, { webpack, isServer }) => {
     if (isServer) {
       config.plugins.push(

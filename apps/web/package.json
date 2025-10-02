@@ -4,7 +4,7 @@
   "license": "AGPL-3.0-or-later",
   "scripts": {
     "dev": "concurrently --kill-others \"pnpm prisma:generate && next dev --turbopack --port 8888\" \"pnpm prisma:generate && pnpm prisma:studio --browser none\"",
-    "build": "pnpm prisma:generate && next build --experimental-build-mode=compile",
+    "build": "pnpm prisma:generate && next build --experimental-build-mode=compile --turbopack",
     "lint": "next lint",
     "start": "next start",
     "script": "tsx ./scripts/run.ts",
@@ -89,7 +89,7 @@
     "luxon": "^3.5.0",
     "motion": "^12.23.22",
     "nanoid": "^5.0.1",
-    "next": "15.5.4",
+    "next": "15.6.0-canary.39",
     "next-auth": "4.24.11",
     "next-axiom": "^1.9.1",
     "next-plausible": "^3.12.0",

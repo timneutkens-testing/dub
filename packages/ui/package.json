@@ -33,7 +33,7 @@
     "check-types": "tsc --noEmit"
   },
   "peerDependencies": {
-    "next": "15.5.4",
+    "next": "15.6.0-canary.39",
     "react": "19.1.1",
     "react-dom": "19.1.1"
   },
@@ -45,7 +45,7 @@
     "@types/react": "^19.1.14",
     "@types/react-dom": "^19.1.9",
     "autoprefixer": "^10.4.16",
-    "next": "15.5.4",
+    "next": "15.6.0-canary.39",
     "postcss": "^8.4.31",
     "react": "^19.1.1",
     "tailwindcss": "^3.4.4",

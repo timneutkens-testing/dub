@@ -27,7 +27,7 @@ jobs:
         run: pnpm install
 
       - name: Build
-        run: pnpm build
+        run: pnpm build && echo 'done'
 
       # - name: Run tests
       #   working-directory: apps/web
